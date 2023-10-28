@@ -1,0 +1,50 @@
+GET http://localhost:3001/api/blogs 
+
+###
+POST http://localhost:3001/api/blogs/new
+Content-Type: application/json
+
+{
+    "title": "Blog title 157",
+    "author": "Author 7",
+    "url": "https://test3.com",
+    "likes": 37,
+    "userId": "650326ed2ee70e34e2e9d6e8"
+}
+
+
+###
+
+DELETE http://localhost:3001/api/blogs/delete/64931532a8d020a677e44c3d
+
+###
+
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "username": "testUser",
+    "name": "testname",
+    "password": "testpassword"
+}
+
+###
+POST http://localhost:3001/api/login
+Content-Type: application/json
+
+{
+    "username": "root",
+    "password": "salainen"
+}
+
+### BEARER TEST
+POST http://localhost:3001/api/blogs/new
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY0OWM2NGY3YzVhNzg3YmIwYzI3NWI4MCIsImlhdCI6MTY5NDc5ODc4OH0.zNs0PY4i-xg_LGlKOKvnS_Rw9QFEiziloOJNfsN-NYQ
+
+{
+    "title": "Blog title 11",
+    "author": "Author 6",
+    "url": "https://test2.com",
+    "likes": 35
+}

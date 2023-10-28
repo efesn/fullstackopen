@@ -1,0 +1,93 @@
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #f1f1f1;
+	border-radius: 5px;
+  }
+  
+  h1 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 30px;
+  }
+
+  h2 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 30px;
+  }
+
+  h4 {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+  }
+  
+  form {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  button {
+	margin-bottom: 10px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+  }
+  
+  button {
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #45a049;
+  }
+  
+  .popup {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border-radius: 4px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .popup::before {
+	content: '\2713';
+	display: inline-block;
+	margin-right: 5px;
+  }
+  
+  .button-container {
+	display: flex;
+	gap: 8px; /* Adjust the spacing as needed */
+  }
+  
+  .delete-button {
+	background-color: red;
+	color: white;
+	border: none;
+	padding: 8px 12px;
+	cursor: pointer;
+  }
+  
+  .delete-button:hover {
+	background-color: red; /* Optional: Keep the same color on hover */
+  }
+  
+  .edit-button {
+	background-color: green;
+	color: white;
+	border: none;
+	padding: 8px 12px;
+	cursor: pointer;
+  }
+  
