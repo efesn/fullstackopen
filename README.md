@@ -66,4 +66,4 @@ Learn React, Redux, Node.js, MongoDB one go! This course will introduce you to m
 
 ### Full Stack Certificate - Parts 0-7
 
-![alt text](https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/00c00ab42304c3495b3b29298711d2a4)
+![alt text](https://i.imgur.com/oHQEjLG.png)
