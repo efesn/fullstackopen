@@ -15,7 +15,7 @@ app.use(cors());
 
 
 
-mongoose.connect("mongodb+srv://efesn0:xx@cluster0.3mrliuf.mongodb.net/blogs?retryWrites=true&w=majority", {
+mongoose.connect("process.env.MONGODB_URI", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log("Connected to DB")).catch
